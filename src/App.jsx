@@ -15,10 +15,10 @@ export const App = () => {
   // DON'T change the code below
   const increase = () => {
     if (count % 5 === 0) {
-      setCount(prevCount => prevCount + 100);
+      add100();
     }
 
-    setCount(prevCount => prevCount + 1);
+    addOne();
   };
 
   return (
